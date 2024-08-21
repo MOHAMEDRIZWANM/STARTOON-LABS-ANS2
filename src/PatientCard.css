@@ -1,0 +1,157 @@
+.patient-card {
+    width: 350px;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+.view-patient {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #F5F5F5;
+    font-size: 16px;
+    color: #012E57;
+}
+
+.view-patient i {
+    margin-right: 8px;
+}
+
+.patient-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.patient-details {
+    flex: 1;
+}
+
+.patient-name {
+    margin: 0;
+    font-size: 18px;
+    color: #012E57;
+}
+
+.patient-id {
+    margin: 0;
+    font-size: 14px;
+    color: #7D7D7D;
+}
+
+.patient-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #AEACAC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.goal-section {
+    background-color: #002647;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.goal-title {
+    margin: 0 0 10px 0;
+}
+
+.goal-progress {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.progress-circle {
+    width: 100px;
+    height: 50px;
+    border-radius: 100px 100px 0 0;
+    background: conic-gradient(#FCB000 40%, #AEACAC 40%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.progress-percentage {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+}
+
+.goal-metrics {
+    display: flex;
+    justify-content: space-around;
+}
+
+.metric {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.metric-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.metric-box.emg {
+    background-color: #FCB000;
+    /* color: white; */
+}
+
+.metric-box.rom {
+    background-color: #DF0100;
+}
+
+.goal-metrics .metric .metric-label {
+    margin-top: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+.patient-info {
+    padding: 16px;
+    border-top: 1px solid #D9D9D9;
+}
+
+.patient-info p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #2C2B2B;
+}
+
+.patient-info p i {
+    margin-right: 8px;
+}
+
+.medical-history {
+    padding: 16px;
+    background-color: #F5F5F5;
+    border-top: 1px solid #D9D9D9;
+}
+
+.medical-history p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #2C2B2B;
+}
+
+.medical-history p i {
+    margin-right: 8px;
+}
